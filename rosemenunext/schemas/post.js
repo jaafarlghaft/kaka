@@ -4,8 +4,18 @@ export default {
   type: "document",
   fields: [
     {
-      name: "title",
+      name: "en_title",
       title: "Title",
+      type: "string",
+    },
+    {
+      name: "fr_title",
+      title: "Titre",
+      type: "string",
+    },
+    {
+      name: "es_title",
+      title: "Título",
       type: "string",
     },
     {
@@ -18,8 +28,18 @@ export default {
       },
     },
     {
-      name: "description",
+      name: "en_desc",
       title: "Description",
+      type: "string",
+    },
+    {
+      name: "fr_desc",
+      title: "La description",
+      type: "string",
+    },
+    {
+      name: "es_desc",
+      title: "Descripción",
       type: "string",
     },
     {

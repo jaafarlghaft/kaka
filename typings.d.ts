@@ -1,14 +1,18 @@
 export interface Post {
     _id: string;
     _createdAt: string;
-    title: string;
+    en_title: string;
+    fr_title: string;
+    es_title: string;
     type: string;
     author:{
         name:string;
         image:string;
     };
     categories: [object],
-    description:string;
+    en_desc:string;
+    fr_desc:string;
+    es_desc:string;
     price:string;
     mainImage:{
         asset:{
@@ -25,6 +29,8 @@ export interface Post {
 export interface Category {
     _id: string;
     _createdAt: string;
-    title: string;
+    en_title: string;
+    fr_title: string;
+    es_title: string;
     slug: string;
 }

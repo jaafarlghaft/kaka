@@ -1,28 +1,24 @@
-import type { NextPage } from 'next'
-import {sanityClient , urlFor } from '../sanity'
+import React from 'react'
+import { sanityClient, urlFor  } from '../sanity'
 import { Category, Post } from '../typings'
-import { useRouter } from "next/router";
 
-import Link from 'next/link';
 
 interface Props{
-  categories :[Category]
-  items :[Post]
-}
+    categories :[Category]
+    items :[Post]
+  }
 
-export default function  NextPage({categories, items}: Props) {
-  const router = useRouter();
- 
+  
+function fr({categories, items}: Props) {
   return (
-    <>
-     
-          <div className="templateux-section" id="next-section">
+  <>
+  <div className="templateux-section" id="next-section">
             <div className="container">
 
             {categories.map(cat=> (
               <div className="row">
                 <div className="col-md-12 text-center mb-5" data-aos="fade">
-                  <h2 className="display-4 mb-4">{cat.en_title}</h2>
+                  <h2 className="display-4 mb-4">{cat.fr_title}</h2>
                   <div className="row justify-content-center">
                    
                   </div>
@@ -35,10 +31,9 @@ export default function  NextPage({categories, items}: Props) {
                     data-aos-delay="400"
                   >
 
-                   
                       <div className="row">
                       {items.filter((item:any) => {
-                        return item.categories[0].en_title == cat.en_title
+                        return item.categories[0].fr_title == cat.fr_title
                       }).map(item => (
                         <div className="col-md-6">
                           <div className="media block-templateux-menu-item">
@@ -48,9 +43,9 @@ export default function  NextPage({categories, items}: Props) {
                               alt="Free Template by Free-Template.co"
                             />
                             <div className="media-body">
-                              <h5 className="mt-0">{item.en_title}</h5>
+                              <h5 className="mt-0">{item.fr_title}</h5>
                               <p>
-                                {item.en_desc}
+                                {item.fr_desc}
                               </p>
                               <h6 className="text-primary menu-price">
                                 {item.price} dhs
@@ -69,31 +64,30 @@ export default function  NextPage({categories, items}: Props) {
             
             </div>
           </div>
-          
   </>
   )
 }
 
-
+export default fr
 
 export async function getServerSideProps() {
-  const query1 = `*[_type == "category"]`
-  const query2 = `*[_type == "post"]{
-    _id,
-    en_title,
-    price,
-    en_desc,
-    mainImage,
-    slug,
-    "categories": categories[]->{
+    const query1 = `*[_type == "category"]`
+    const query2 = `*[_type == "post"]{
+      _id,
+      fr_title,
+      price,
+      fr_desc,
+      mainImage,
       slug,
-      en_title,
+      "categories": categories[]->{
+        slug,
+        fr_title,
+      }
+    }`
+    const categories = await sanityClient.fetch(query1)
+    const items = await sanityClient.fetch(query2)
+  
+    return {
+      props: {categories: categories, items:items}, // will be passed to the page component as props
     }
-  }`
-  const categories = await sanityClient.fetch(query1)
-  const items = await sanityClient.fetch(query2)
-
-  return {
-    props: {categories: categories, items:items}, // will be passed to the page component as props
   }
-}
