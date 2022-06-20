@@ -3,7 +3,7 @@ import {sanityClient , urlFor } from '../sanity'
 import { Category, Post } from '../typings'
 import { useRouter } from "next/router";
 
-import Link from 'next/link';
+
 
 interface Props{
   categories :[Category]
@@ -22,7 +22,7 @@ export default function  NextPage({categories, items}: Props) {
             {categories.map(cat=> (
               <div className="row">
                 <div className="col-md-12 text-center mb-5" data-aos="fade">
-                  <h2 className="display-4 mb-4">{cat.en_title}</h2>
+                  <h2 className="display-4 mb-4">{cat.title}</h2>
                   <div className="row justify-content-center">
                    
                   </div>
@@ -38,7 +38,7 @@ export default function  NextPage({categories, items}: Props) {
                    
                       <div className="row">
                       {items.filter((item:any) => {
-                        return item.categories[0].en_title == cat.en_title
+                        return item.categories[0].title == cat.title
                       }).map(item => (
                         <div className="col-md-6">
                           <div className="media block-templateux-menu-item">
@@ -48,7 +48,7 @@ export default function  NextPage({categories, items}: Props) {
                               alt="Free Template by Free-Template.co"
                             />
                             <div className="media-body">
-                              <h5 className="mt-0">{item.en_title}</h5>
+                              <h5 className="mt-0">{item.title}</h5>
                               <p>
                                 {item.en_desc}
                               </p>
@@ -80,14 +80,14 @@ export async function getServerSideProps() {
   const query1 = `*[_type == "category"]`
   const query2 = `*[_type == "post"]{
     _id,
-    en_title,
+    title,
     price,
     en_desc,
     mainImage,
     slug,
     "categories": categories[]->{
       slug,
-      en_title,
+      title,
     }
   }`
   const categories = await sanityClient.fetch(query1)

@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               className="cover"
               data-scrollax="properties: { translateY: '30%' }"
             >
-              <img src="./images/img_isotope_5.jpg" alt="jbdkjd" />
+              <img src="./images/hero_image.jpg" alt="jbdkjd" />
             </div>
 
             <div className="container">
@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                   <h3 className="heading mb-5">
                    <Typewriter
                  options={{
-                  strings: ['Welcome To', 'Soyez les bienvenus chez','欢迎 ' , 'ようこそ'],
+                  strings: ['Soyez les bienvenus chez','Welcome To', 'Bienvenido a', 'Willkommen zu','Benvenuto a' ,'欢迎 ' , 'ようこそ'],
                   autoStart: true,
                   loop: true,
                 }}
@@ -42,16 +42,16 @@ function MyApp({ Component, pageProps }: AppProps) {
                  
                   <h3 className="heading mb-5">La Rose Des Sables Pizzeria</h3>
                  
-                  <h5 className="heading ">Our Menu</h5>
+                  <h3 className="heading ">Our Menu</h3>
                   <ul className="nav block-templateux-tab-nav nav-pills mb-5 pb-5" id="pills-tab" role="tablist">
               <li className="nav-item" data-aos="fade" data-aos-delay="100">
  
-              <a className="nav-link " aria-selected="true"  href="/#next-section">English</a>
+              <a className="nav-link " aria-selected="true"  href="/#next-section">Français</a>
             
               </li>
               <li className="nav-item" data-aos="fade" data-aos-delay="100">
              
-              <a className="nav-link" aria-selected="true" href="/fr#next-section">Français</a>
+              <a className="nav-link" aria-selected="true" href="/en#next-section">English</a>
              
               </li>
               <li className="nav-item" data-aos="fade" data-aos-delay="100">

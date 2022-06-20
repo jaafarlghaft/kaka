@@ -18,7 +18,7 @@ function fr({categories, items}: Props) {
             {categories.map(cat=> (
               <div className="row">
                 <div className="col-md-12 text-center mb-5" data-aos="fade">
-                  <h2 className="display-4 mb-4">{cat.fr_title}</h2>
+                  <h2 className="display-4 mb-4">{cat.en_title}</h2>
                   <div className="row justify-content-center">
                    
                   </div>
@@ -33,7 +33,7 @@ function fr({categories, items}: Props) {
 
                       <div className="row">
                       {items.filter((item:any) => {
-                        return item.categories[0].fr_title == cat.fr_title
+                        return item.categories[0].en_title == cat.en_title
                       }).map(item => (
                         <div className="col-md-6">
                           <div className="media block-templateux-menu-item">
@@ -43,9 +43,9 @@ function fr({categories, items}: Props) {
                               alt="Free Template by Free-Template.co"
                             />
                             <div className="media-body">
-                              <h5 className="mt-0">{item.fr_title}</h5>
+                              <h5 className="mt-0">{item.en_title}</h5>
                               <p>
-                                {item.fr_desc}
+                                {item.en_desc}
                               </p>
                               <h6 className="text-primary menu-price">
                                 {item.price} dhs
@@ -74,14 +74,14 @@ export async function getServerSideProps() {
     const query1 = `*[_type == "category"]`
     const query2 = `*[_type == "post"]{
       _id,
-      fr_title,
+      en_title,
       price,
-      fr_desc,
+      en_desc,
       mainImage,
       slug,
       "categories": categories[]->{
         slug,
-        fr_title,
+        en_title,
       }
     }`
     const categories = await sanityClient.fetch(query1)

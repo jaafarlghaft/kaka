@@ -4,13 +4,13 @@ export default {
   type: "document",
   fields: [
     {
-      name: "en_title",
-      title: "Title",
+      name: "title",
+      title: "Titre",
       type: "string",
     },
     {
-      name: "fr_title",
-      title: "Titre",
+      name: "en_title",
+      title: "Title",
       type: "string",
     },
     {

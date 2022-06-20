@@ -1,8 +1,8 @@
 export interface Post {
     _id: string;
     _createdAt: string;
+    title: string;
     en_title: string;
-    fr_title: string;
     es_title: string;
     type: string;
     author:{
@@ -10,8 +10,8 @@ export interface Post {
         image:string;
     };
     categories: [object],
+    desc:string;
     en_desc:string;
-    fr_desc:string;
     es_desc:string;
     price:string;
     mainImage:{
@@ -29,8 +29,8 @@ export interface Post {
 export interface Category {
     _id: string;
     _createdAt: string;
+    title: string;
     en_title: string;
-    fr_title: string;
     es_title: string;
     slug: string;
 }

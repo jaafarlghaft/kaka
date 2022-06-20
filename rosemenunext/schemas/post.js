@@ -4,13 +4,13 @@ export default {
   type: "document",
   fields: [
     {
-      name: "en_title",
-      title: "Title",
+      name: "title",
+      title: "Titre",
       type: "string",
     },
     {
-      name: "fr_title",
-      title: "Titre",
+      name: "en_title",
+      title: "Title",
       type: "string",
     },
     {
@@ -28,13 +28,13 @@ export default {
       },
     },
     {
-      name: "en_desc",
-      title: "Description",
+      name: "desc",
+      title: "La description",
       type: "string",
     },
     {
-      name: "fr_desc",
-      title: "La description",
+      name: "en_desc",
+      title: "Description",
       type: "string",
     },
     {
