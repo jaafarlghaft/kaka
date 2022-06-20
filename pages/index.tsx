@@ -78,7 +78,9 @@ export default function  NextPage({categories, items}: Props) {
 
                    
                       <div className="row">
-                      {items.filter(item => item.categories[0].title == cat.title).map(item => (
+                      {items.filter((item:any) => {
+                        return item.categories[0].title == cat.title
+                      }).map(item => (
                         <div className="col-md-6">
                           <div className="media block-templateux-menu-item">
                             <img
@@ -167,7 +169,10 @@ export async function getServerSideProps() {
     description,
     mainImage,
     slug,
-    "categories": categories[]->
+    "categories": categories[]->{
+      slug,
+      title,
+    }
   }`
   const categories = await sanityClient.fetch(query1)
   const items = await sanityClient.fetch(query2)
