@@ -14,10 +14,12 @@ function MyApp({ Component, pageProps }: AppProps) {
  <Head></Head>
       <div>
         <div id="site-wrap" >
+       
         <div
             className="cover-parallax-1 overlay-1 padding"
             data-scrollax-parent="true"
           >
+            <div></div>
             <div
               className="cover"
               data-scrollax="properties: { translateY: '30%' }"
@@ -31,7 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                   className="col-md-12 col-lg-12 text-center"
                   data-aos="fade"
                 >
-                  <h3 className="heading mb-5">
+                  <h3 className="heading2 mb-5">
                    <Typewriter
                  options={{
                   strings: ['Soyez les bienvenus chez','Welcome To', 'Bienvenido a', 'Willkommen zu','Benvenuto a' ,'欢迎 ' , 'ようこそ'],
@@ -40,9 +42,9 @@ function MyApp({ Component, pageProps }: AppProps) {
                 }}
                   /></h3>
                  
-                  <h3 className="heading mb-5">La Rose Des Sables Pizzeria</h3>
-                 
-                  <h3 className="heading ">Our Menu</h3>
+                  <h3 className="heading mb-5">La Rose Des Sables</h3>
+                  <h3 className="heading1 mb-5">Restaurant Pizzeria</h3>
+                  <h3 className="heading2 ">Menu</h3>
                   <ul className="nav block-templateux-tab-nav nav-pills mb-5 pb-5" id="pills-tab" role="tablist">
               <li className="nav-item" data-aos="fade" data-aos-delay="100">
  

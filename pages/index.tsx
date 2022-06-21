@@ -35,7 +35,6 @@ export default function  NextPage({categories, items}: Props) {
                     data-aos-delay="400"
                   >
 
-                   
                       <div className="row">
                       {items.filter((item:any) => {
                         return item.categories[0].title == cat.title
@@ -50,7 +49,7 @@ export default function  NextPage({categories, items}: Props) {
                             <div className="media-body">
                               <h5 className="mt-0">{item.title}</h5>
                               <p>
-                                {item.en_desc}
+                                {item.desc}
                               </p>
                               <h6 className="text-primary menu-price">
                                 {item.price} dhs
@@ -82,7 +81,7 @@ export async function getServerSideProps() {
     _id,
     title,
     price,
-    en_desc,
+    desc,
     mainImage,
     slug,
     "categories": categories[]->{
