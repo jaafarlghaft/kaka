@@ -2,7 +2,6 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import { useRouter } from "next/router";
 import Script from 'next/script';
-import Layout from '../components/Layout';
 import Head from 'next/head';
 import Footer from '../components/Footer';
 import MainHeader from '../components/MainHeader';
