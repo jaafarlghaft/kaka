@@ -10,7 +10,7 @@ export const config = {
    * https://nextjs.org/docs/basic-features/environment-variables
    **/
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
-  projectId: "v2438wws",
+  projectId: "couvn9b6",
   apiVersion: "2021-08-11", // or today's date for latest
   /**
    * Set useCdn to `false` if your application require the freshest possible

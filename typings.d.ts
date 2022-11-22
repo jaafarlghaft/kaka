@@ -26,6 +26,27 @@ export interface Post {
 
 };
 
+export interface Project {
+    _id: string;
+    _createdAt: string;
+    title: string;
+    author:{
+        name:string;
+        image:string;
+    };
+    categories: [object],
+    mainImage:{
+        asset:{
+            url:string;
+        }
+    };
+    slug: {
+        current:string;
+    };
+    body:[object];
+
+};
+
 export interface Category {
     _id: string;
     _createdAt: string;
@@ -33,4 +54,10 @@ export interface Category {
     en_title: string;
     es_title: string;
     slug: string;
+}
+
+export interface Locale {
+    _id: string;
+    _createdAt: string;
+    title: string;
 }
