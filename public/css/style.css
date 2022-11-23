@@ -2057,3 +2057,8 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
     display: none;
   }
 }
+
+
+[data-aos][data-aos][data-aos-duration="800"], body[data-aos-duration="800"] [data-aos] {
+  transition-duration: .1s;
+}

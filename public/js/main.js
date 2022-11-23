@@ -1,10 +1,10 @@
 setTimeout(function () {
   AOS.init({
-    duration: 800,
+    duration: 100,
     easing: "ease",
     once: false,
   });
-}, 800);
+}, 100);
 
 $(function () {
   "use strict";
