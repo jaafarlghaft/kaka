@@ -358,7 +358,7 @@ $(function () {
             })
             .staggerFromTo(
               ".owl-item.active .hero-heading > span > span > span > span",
-              2,
+              1,
               { opacity: 1, rotation: "20%", y: "100%" },
               { opacity: 1, rotation: 0, y: "0%", ease: Expo.easeInOut },
               0.03,
@@ -372,7 +372,7 @@ $(function () {
               { autoAlpha: 1, y: 0, ease: Expo.easeInOut },
               "-=1"
             );
-        }, 300);
+        }, 200);
       },
     });
 
@@ -395,7 +395,7 @@ $(function () {
           })
           .staggerFromTo(
             ".owl-item.active .hero-heading > span > span > span > span",
-            2,
+            1,
             { opacity: 1, rotation: "20%", y: "100%" },
             { opacity: 1, rotation: 0, y: "0%", ease: Expo.easeInOut },
             0.03,
