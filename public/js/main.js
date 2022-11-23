@@ -185,19 +185,19 @@ $(function () {
           transformOrigin: "0% 100%",
           ease: Expo.easeInOut,
         },
-        "-=2"
+        "-=0.25"
       )
         .fromTo(
           [pic1, pic2],
-          2,
+          0.25,
           { scale: 1.5 },
           { scale: 1.0, ease: Expo.easeInOut },
-          "-=1"
+          "-=0.5"
         )
         .staggerTo(words, 2, { y: 0, ease: Expo.easeInOut }, 0.1, "-=2")
         .fromTo(
           excerpt,
-          2,
+          0.5,
           { opacity: 0, y: 50, autoAlpha: 0 },
           { opacity: 1, autoAlpha: 1, y: 0, ease: Expo.easeOut },
           "-=1"
