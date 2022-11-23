@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 
 
-import { useRouter } from "next/router";
 import MainHero from '../components/MainHero';
 import HomeAbout from '../components/HomeAbout';
 import HomeFeatures from '../components/HomeFeatures';
@@ -20,23 +19,20 @@ export default function  NextPage() {
  
   return (
     <>
-     <div className="untree_co--site-main">
      <MainHero />
      <HomeAbout />
      <HomeFeatures />
      <HomeExtra />
      <Request />
-    
-     </div>
-  </>
+    </>
   )
 }
 
-// export function getStaticProps({locale}:any){
-//     return {
-//         props:{
-//             locale
-//         }
-//     }
-// }
+export function getStaticProps({locale}:any){
+    return {
+        props:{
+            locale
+        }
+    }
+}
 

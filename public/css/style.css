@@ -67,18 +67,24 @@ a, a:hover {
 }
 
 .untree_co--site-section {
-  padding: 7rem 0;
+  padding: 5rem 0;
   position: relative;
   clear: both;
   width: 100%;
 }
+
+
 
 @media (max-width: 991.98px) {
   .untree_co--site-section {
     padding: 4rem 0;
   }
 }
-
+@media (max-width: 740.98px) {
+  .untree_co--site-section {
+    padding: 2rem 0;
+  }
+}
 .search-wrap {
   width: 100%;
   position: fixed;
@@ -248,7 +254,12 @@ a, a:hover {
 
 @media (max-width: 991.98px) {
   .untree_co--site-hero .site-hero-contents .hero-heading {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .untree_co--site-hero .site-hero-contents .sub-text h2 {
+    font-size: 1rem;
   }
 }
 
@@ -412,24 +423,15 @@ a, a:hover {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-
-@media (max-width: 767.98px) {
-  .suite-wrap {
-    width: 100%;
-    margin-bottom: 5rem;
-  }
-}
-
 .suite-wrap.overlap-image-1 .suite {
   width: 60%;
   float: left;
 }
 
-@media (max-width: 767.98px) {
-  .suite-wrap.overlap-image-1 .suite {
-    width: 100%;
-  }
-}
+
+
+
+
 
 .suite-wrap.overlap-image-1 .suite img {
   max-width: 100% !important;
@@ -484,17 +486,11 @@ a, a:hover {
   width: 30%;
   margin-top: 5%;
   position: relative;
-  float: left;
+  float: right;
   margin-left: 50px;
 }
 
-@media (max-width: 767.98px) {
-  .suite-wrap.overlap-image-1 .suite-contents {
-    float: left;
-    margin-left: 0;
-    width: 100%;
-  }
-}
+
 
 .suite-wrap.overlap-image-1 .suite-contents .suite-title {
   color: #000;
@@ -503,6 +499,7 @@ a, a:hover {
   line-height: 0;
   font-weight: 700;
   font-family: "Cormorant Garamond", serif;
+  margin-top: 40px;
 }
 
 .suite-wrap.overlap-image-1 .suite-contents .suite-title > span {
@@ -528,14 +525,9 @@ a, a:hover {
 
 .suite-wrap.overlap-image-2 .suite {
   float: right;
-  width: 70%;
+  width: 60%;
 }
 
-@media (max-width: 767.98px) {
-  .suite-wrap.overlap-image-2 .suite {
-    width: 100%;
-  }
-}
 
 .suite-wrap.overlap-image-2 .suite .image-stack:after {
   content: "";
@@ -588,17 +580,12 @@ a, a:hover {
 .suite-wrap.overlap-image-2 .suite-contents {
   z-index: 3;
   position: relative;
-  width: 28%;
-  float: right;
-  margin-top: 10%;
+  width: 30%;
+  float: left;
+  margin-top: 5%;
+  margin-right: 50px;
 }
 
-@media (max-width: 767.98px) {
-  .suite-wrap.overlap-image-2 .suite-contents {
-    width: 100%;
-    margin-right: 0px;
-  }
-}
 
 .suite-wrap.overlap-image-2 .suite-contents .suite-title {
   color: #000;
@@ -607,7 +594,9 @@ a, a:hover {
   line-height: 0;
   font-weight: 700;
   font-family: "Cormorant Garamond", serif;
+  margin-top: 40px;
 }
+
 
 .suite-wrap.overlap-image-2 .suite-contents .suite-title > span {
   position: relative;
@@ -630,9 +619,42 @@ a, a:hover {
   line-height: 1.7;
 }
 
+@media (max-width: 1140.98px) {
+  .suite-wrap {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  .suite-wrap.overlap-image-1 .suite {
+    width: 100%;
+  }
+  .suite-wrap.overlap-image-1 .suite-contents {
+    float: left;
+    margin-left: 0;
+    width: 100%;
+  }
+  .suite-wrap.overlap-image-2 .suite {
+    width: 100%;
+  }
+  .suite-wrap.overlap-image-2 .suite-contents {
+    float: right;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 740px){
+  .suite-wrap.overlap-image-1 .suite-contents .suite-title {
+    font-size: 1.5rem;
+  }
+  .suite-wrap.overlap-image-2 .suite-contents .suite-title {
+    font-size: 1.5rem;
+  }
+}
+
+
 /* Heading */
 .section-heading h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #000;
   position: relative;
@@ -674,6 +696,14 @@ a, a:hover {
   color: #aeaeae;
 }
 
+@media (max-width: 740px){
+.section-heading h3 {
+    font-size: 1.5rem;
+}
+.section-heading.dark h3 {
+    font-size: 1.5rem;
+}
+}
 /* buttons */
 .readmore {
   color: #000;
@@ -1790,6 +1820,7 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
 }
 
 .room-animate .heading {
+  font-size: 2rem;
   line-height: 0;
 }
 
@@ -2018,4 +2049,12 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+@media (max-width: 700px) {
+  .owl-gallery-big {
+    height: 25vh;
+}
+  .img-slider{
+    display: none;
+  }
 }

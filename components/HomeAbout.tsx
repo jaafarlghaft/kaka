@@ -2,12 +2,9 @@ import React from 'react'
 
 function HomeAbout() {
   return (
-    <div  className="untree_co--site-section float-left pb-0 featured-rooms">
-
-
+    <section  className="untree_co--site-section float-left pb-0 featured-rooms">
     <div  className="container-fluid pt-5">
       <div  className="suite-wrap overlap-image-1">
-
         <div  className="suite">
           <div  className="image-stack">
             <div  className="image-stack-item image-stack-item-top" data-jarallax-element="-50">
@@ -29,9 +26,7 @@ function HomeAbout() {
           </div>
         </div>
       </div>
-
-      <div  className="suite-wrap overlap-image-2">
-
+      <div  className="suite-wrap overlap-image-2" style={{marginBottom: "20px"}}> 
         <div  className="suite">
           <div  className="image-stack">
             <div  className="image-stack-item image-stack-item-top" >
@@ -54,9 +49,8 @@ function HomeAbout() {
         </div>
 
       </div>
-
     </div>
-  </div>
+  </section>
   )
 }
 

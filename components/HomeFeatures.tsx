@@ -2,7 +2,7 @@ import React from 'react'
 
 function HomeFeatures() {
   return (
-    <div  className="untree_co--site-section">
+    <section  className="untree_co--site-section">
           <div  className="container">
             <div  className="container pt-0 pb-5">
             <div  className="row justify-content-center text-center">  
@@ -11,7 +11,7 @@ function HomeFeatures() {
               </div>
             </div>
           </div>
-            <div  className="row custom-row-02192 align-items-stretch">
+            <div  className="row">
               <div  className="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100">
                 <div  className="media-29191 text-center h-100">
                   <div  className="media-29191-icon">
@@ -39,7 +39,6 @@ function HomeFeatures() {
                   <p>Explore the Area</p>
                 </div>
               </div>
-              
               <div  className="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="200">
                 <div  className="media-29191 text-center h-100">
                   <div  className="media-29191-icon">
@@ -49,7 +48,6 @@ function HomeFeatures() {
                   <p>Excursions and tours arrangment</p>
                 </div>
               </div>
-              
               <div  className="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100">
                 <div  className="media-29191 text-center h-100">
                   <div  className="media-29191-icon">
@@ -68,10 +66,9 @@ function HomeFeatures() {
                   <p>Airport transfer and pick-up</p>
                 </div>
               </div>
-
             </div>
           </div>
-        </div>
+        </section>
   )
 }
 

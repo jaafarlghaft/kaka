@@ -4,8 +4,7 @@ import PageHero from '../components/PageHero'
 function restaurant() {
   return (
     <>
-    <div className="untree_co--site-main ">
-   
+    
     <div  className="untree_co--site-hero inner-page" style={{backgroundImage: `url('/images/s7.jpg')`}}>
     <div  className="container">
       <div  className="row align-items-center justify-content-center">
@@ -20,8 +19,8 @@ function restaurant() {
       </div>
     </div>
   </div>
-  <div  className="untree_co--site-section float-left pb-0 featured-rooms">
-        <div  className="container pt-40">
+  <div  className="untree_co--site-section float-left pb-0 featured-rooms " style={{padding: "6rem 0"}}>
+        <div  className="container ">
                 <div className="row">
                     <div className="col-lg-6 col-md-6">
                         <div  className="suite-contents" data-jarallax-element="50">
@@ -51,10 +50,10 @@ function restaurant() {
     </div>
     <div className="untree_co--site-section">
 
-          <div className="container-fluid px-0">
+          <div className="container-fluid">
 
-            <div className="row align-items-stretch">
-              <div className="col-9 relative" data-aos="fade-up" data-aos-delay="">
+            <div className="row">
+              <div className="col-md-9 relative" data-aos="fade-up" data-aos-delay="">
                 <div className="owl-carousel owl-gallery-big">
                   <div className="slide-thumb bg-image" style={{backgroundImage: `url('images/res1.jpg')`}}></div>
                   <div className="slide-thumb bg-image" style={{backgroundImage: `url('images/res2.jpg')`}}></div>
@@ -64,8 +63,7 @@ function restaurant() {
                 <div className="slider-counter text-center"></div>
 
               </div>
-              <div className="col-3 relative"  data-aos="fade-up" data-aos-delay="100">
-
+              <div className="col-3 relative img-slider"  data-aos="fade-up" data-aos-delay="100">
                 <div className="owl-carousel owl-gallery-small">
                   <div className="slide-thumb bg-image" style={{backgroundImage: `url('images/res1.jpg')`}}><a href="#"></a></div>
                   <div className="slide-thumb bg-image" style={{backgroundImage: `url('images/res2.jpg')`}}><a href="#"></a></div>
@@ -77,8 +75,7 @@ function restaurant() {
           </div>
 
         </div>
-    </div>
-    <div  className="untree_co--site-section float-right pb-29 featured-rooms">
+    <div  className="untree_co--site-section float-right  featured-rooms" style={{padding: "6rem 0"}}>
         <div  className="container pt-40">
                 <div className="row">
                 <div className="col-lg-6 col-md-6">

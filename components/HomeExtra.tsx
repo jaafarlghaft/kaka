@@ -15,10 +15,10 @@ function HomeExtra() {
                 <div  className="post-entry" data-aos="fade-up" data-aos-delay="100">
                   <a href="#"  className="thumb"><img src="images/s7.jpg" alt="Image"  className="img-fluid"/></a>
                   <div  className="post-entry-contents">
-                    <h3><a href="#">Hotel Zaghro's restaurant serves a delicious Moroccan food</a></h3>
+                    <h3>Hotel Zaghro's restaurant serves a delicious Moroccan food</h3>
                     {/* <div  className="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div> */}
                     <p>For your meal, you can select our large restaurant, or a table at the swimming pool. The perfect solution for a cool lunch in swimming suit !</p>
-                    <p><a href="/restaurant"  className="readmore">Read more</a></p>
+                    <a href="/restaurant"  className="readmore">Read more</a>
                   </div>
                 </div>
               </div>
@@ -27,10 +27,10 @@ function HomeExtra() {
                 <div  className="post-entry" data-aos="fade-up" data-aos-delay="200">
                   <a href="#"  className="thumb"><img src="images/s5.jpg" alt="Image"  className="img-fluid"/></a>
                   <div  className="post-entry-contents">
-                    <h3><a href="#">A large swimming pool for young and not so young swimmers</a></h3>
+                    <h3>A large swimming pool for young and not so young swimmers</h3>
                     {/* <div  className="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div> */}
                     <p>The inner yard of the hotel is set around a large swimming pool. The pool has a shallow part where the children can play safely (under your watch).</p>
-                    <p><a href="#"  className="readmore">Read more</a></p>
+                    <a href="#"  className="readmore">Read more</a>
                   </div>
                 </div>
               </div>
