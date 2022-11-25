@@ -1,5 +1,6 @@
 
 import PageHero from "../components/PageHero";
+import Request from "../components/Request";
 
 
 export default function  About() {
@@ -23,25 +24,36 @@ export default function  About() {
         <section className="untree_co--site-section">
 
 <div className="container px-md-0">
-<div className="row justify-content-center  pt-0 pb-5">  
-    <div className="col-lg-4 section-heading" data-aos="fade-up">
-      <h3 className="text-left">The Management</h3>
-      <div>
-      <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality mattress in a small room to large suites with bigger.</p>                  
+<div className="row justify-content-center  pt-0 ">  
+    
+      <div className="col-lg-8">
+        <div className="row">
+    
+          <div className="col-12 section-heading" data-aos="fade-up">
+        <h3 className="text-left">Hotel Zaghro Ouarzazate</h3>
 
-<p>Higher-quality beds, a dresser, a refrigerator and other kitchen facilities, upholstered chairs, a flat screen television, and en-suite bathrooms. Small, lower-priced hotels may offer only the most basic guest services and facilities. </p>
+          </div>
+          <div className="col-lg-6">
+      <div>
+      <p>Hotel Zaghro is located in the south of Ouarzazate, in the rural part of Tabount, where starts the road to Zagora. It is a Moroccan hotel, managed for years by a Moroccan family. Its facilities are exactly what you need in order to relax in a nice and welcoming environment. The hotel has a large swimming pool, and its room are traditionally decorated following the ways of Berbers of south Morocco.</p>                  
+      <p>With no less than 55 bedrooms, it can host groups, nevertheless, it is not too large a hotel, and guests travelling on their own will not have the feeling their are lost in a large resort.</p>
 
       </div>
     </div>
-    <div className="col-lg-4 section-heading" data-aos="fade-up">
-      <h3 className="text-left">The Management</h3>
+    <div className="col-lg-6 section-heading" data-aos="fade-up">
+      
       <div>
-      <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality mattress in a small room to large suites with bigger.</p>                  
-
-<p>Higher-quality beds, a dresser, a refrigerator and other kitchen facilities, upholstered chairs, a flat screen television, and en-suite bathrooms. Small, lower-priced hotels may offer only the most basic guest services and facilities. </p>
+      <p>The large restaurant in extended by tables laid around the swimming pool and in the lounge. It is large enough to be comfortable.</p>                  
+      <p>Prices are really reasonable, a single room can be rent for 110 dirhams, 200 dirhams if it has air-conditioning.</p>
 
       </div>
     </div>
+        </div>
+    
+     
+      </div>
+     
+   
     <div className="col-lg-4 " data-aos="fade-up">
     <img src="images/s6.jpg" alt="Image" className="img-fluid"  />
     
@@ -84,7 +96,7 @@ export default function  About() {
       </div>
     </div>
     <div className="col-lg-4 " data-aos="fade-up">
-    <img src="images/ouarzazate.jpg" alt="Image" className="img-fluid"  />
+    <img src="images/ouarzazate.jpg" alt="Image" className="img-fluid mb-4"  />
     
     </div>
     <div className="col-lg-4 section-heading" data-aos="fade-up">
@@ -99,7 +111,7 @@ export default function  About() {
   </div>
 </div>
 </section>
-
+<Request />
 
     </>
   )
