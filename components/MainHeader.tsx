@@ -36,6 +36,9 @@ function MainHeader() {
           </div>
           <div  className="icons-wrap text-md-right">
             <ul  className="icons-top d-none d-lg-block">
+            <li className="mr-1">
+                <Link href="https://wa.me/+212524854135" target={"_blank"}><a><span  className="icon-whatsapp"/></a></Link>
+              </li>
               <li className="mr-1">
                 <Link href="https://www.facebook.com/hotelzaghro/" target={"_blank"}><a><span  className="icon-facebook"/></a></Link>
               </li>

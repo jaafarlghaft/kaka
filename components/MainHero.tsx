@@ -11,7 +11,7 @@ function MainHero() {
             <div  className="site-hero-contents text-center" >
               <h1  className="hero-heading">Welcome to Hotel Saghro</h1>
               <div  className="sub-text">
-                <h2 className='text-white'>2 Stars Hotel in Ouarzazate</h2>
+                <h2 className='text-white'>2 Stars Hotel in Ouarzazate, Restaurant & Pool</h2>
               </div>
             </div>
           </div>
@@ -26,7 +26,7 @@ function MainHero() {
             <div  className="site-hero-contents text-center" >
               <h1  className="hero-heading">Enjoy Your Stay</h1>
               <div  className="sub-text">
-                <h2 className='text-white'>Witheir in families or solo travellers, Hotel Zaghro is managed by a Moroccan family that will treat you as a friend.</h2>
+                <h2 className='text-white'>Explore the south-east of Morocco</h2>
               </div>
             </div>
           </div>

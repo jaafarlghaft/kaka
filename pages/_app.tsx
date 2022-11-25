@@ -24,19 +24,19 @@ function MyApp({ Component, pageProps }: AppProps) {
             <Component {...pageProps} />
            </Layout>
             <Script src="/js/vendor/jquery-3.3.1.min.js" strategy="beforeInteractive" />
-            <Script src="/js/vendor/popper.min.js" />
-            <Script src="/js/vendor/bootstrap.min.js" />
+            <Script src="/js/vendor/popper.min.js"strategy="beforeInteractive" />
+            <Script src="/js/vendor/bootstrap.min.js" strategy="beforeInteractive"/>
             <Script src="/js/vendor/owl.carousel.min.js" strategy="beforeInteractive"/>
-            <Script src="/js/vendor/jarallax.min.js" />
-            <Script src="/js/vendor/jarallax-element.min.js" />
-            <Script src="/js/vendor/ofi.min.js" />
-            <Script src="/js/vendor/aos.js" />
-            <Script src="/js/vendor/jquery.lettering.js" />
-            <Script src="/js/vendor/jquery.sticky.js" />
-            <Script src="/js/vendor/TweenMax.min.js" />
-            <Script src="/js/vendor/ScrollMagic.min.js" />
-            <Script src="/js/vendor/scrollmagic.animation.gsap.min.js" />
-            <Script src="/js/vendor/debug.addIndicators.min.js" />
+            <Script src="/js/vendor/jarallax.min.js" strategy="beforeInteractive"/>
+            <Script src="/js/vendor/jarallax-element.min.js" strategy="beforeInteractive"/>
+            <Script src="/js/vendor/ofi.min.js"strategy="beforeInteractive"/>
+            <Script src="/js/vendor/aos.js" strategy="beforeInteractive"/>
+            <Script src="/js/vendor/jquery.lettering.js" strategy="beforeInteractive" />
+            <Script src="/js/vendor/jquery.sticky.js" strategy="beforeInteractive"/>
+            <Script src="/js/vendor/TweenMax.min.js" strategy="beforeInteractive"/>
+            <Script src="/js/vendor/ScrollMagic.min.js" strategy="beforeInteractive"/>
+            <Script src="/js/vendor/scrollmagic.animation.gsap.min.js" strategy="beforeInteractive"/>
+            <Script src="/js/vendor/debug.addIndicators.min.js"strategy="beforeInteractive" />
             <Script src="/js/main.js" />
            </>
 );
