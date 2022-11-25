@@ -335,7 +335,7 @@ $(function () {
       margin: 0,
       animateOut: "fadeOut",
       animateIn: "fadeIn",
-      // smartSpeed: 1500,
+      smartSpeed: 1500,
       autoplay: true,
       autoplayHoverPause: true,
       dots: true,
@@ -367,7 +367,7 @@ $(function () {
             )
             .fromTo(
               ".owl-item.active .sub-text",
-              1,
+              0.5,
               { autoAlpha: 0, y: 20 },
               { autoAlpha: 1, y: 0, ease: Expo.easeInOut },
               "-=1"
@@ -404,7 +404,7 @@ $(function () {
           )
           .fromTo(
             ".owl-item.active .sub-text",
-            1,
+            0.5,
             { autoAlpha: 0, y: 20 },
             { autoAlpha: 1, y: 0, ease: Expo.easeInOut },
             "-=1"
