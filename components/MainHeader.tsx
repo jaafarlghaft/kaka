@@ -37,13 +37,13 @@ function MainHeader() {
           <div  className="icons-wrap text-md-right">
             <ul  className="icons-top d-none d-lg-block">
               <li className="mr-1">
-                <Link href="#"><a><span  className="icon-facebook"/></a></Link>
+                <Link href="https://www.facebook.com/hotelzaghro/" target={"_blank"}><a><span  className="icon-facebook"/></a></Link>
               </li>
               <li className="mr-1">
                 <Link href="#"><a><span  className="icon-instagram"/></a></Link>
               </li>
               <li>
-                <Link href="#"><a><span  className="icon-tripadvisor"/></a></Link>
+                <Link href="https://www.tripadvisor.com/Hotel_Review-g304018-d639581-Reviews-Zaghro_Hotel-Ouarzazate_Draa_Tafilalet.html" target={"_blank"}><a><span  className="icon-tripadvisor"/></a></Link>
               </li>
             </ul>
             <Link href="#"><a className="d-block d-lg-none burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">

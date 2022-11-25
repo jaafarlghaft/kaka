@@ -23,10 +23,10 @@ function MyApp({ Component, pageProps }: AppProps) {
            <Layout>
             <Component {...pageProps} />
            </Layout>
-            <Script src="/js/vendor/jquery-3.3.1.min.js" />
+            <Script src="/js/vendor/jquery-3.3.1.min.js" strategy="beforeInteractive" />
             <Script src="/js/vendor/popper.min.js" />
             <Script src="/js/vendor/bootstrap.min.js" />
-            <Script src="/js/vendor/owl.carousel.min.js" />
+            <Script src="/js/vendor/owl.carousel.min.js" strategy="beforeInteractive"/>
             <Script src="/js/vendor/jarallax.min.js" />
             <Script src="/js/vendor/jarallax-element.min.js" />
             <Script src="/js/vendor/ofi.min.js" />

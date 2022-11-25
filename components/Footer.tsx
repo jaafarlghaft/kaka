@@ -61,16 +61,13 @@ function Footer() {
           <div className="col-md-6 text-md-right">
             <ul className="icons-top icons-dark">
               <li className='mr-1'>
-              <Link href="/"><a><span className="icon-facebook"/></a></Link>
+              <Link href="https://www.facebook.com/hotelzaghro/" target={"_blank"}><a><span className="icon-facebook"/></a></Link>
               </li >
               <li className='mr-1'>
-              <Link href="/"><a><span className="icon-twitter"/></a></Link>
-              </li>
-              <li className='mr-1'>
-              <Link href="/"><a><span className="icon-instagram"/></a></Link>
+              <Link href="https://www.facebook.com/hotelzaghro/" target={"_blank"}><a><span className="icon-instagram"/></a></Link>
               </li>
               <li>
-              <Link href="/"><a><span className="icon-tripadvisor"/></a></Link>
+              <Link href="https://www.tripadvisor.com/Hotel_Review-g304018-d639581-Reviews-Zaghro_Hotel-Ouarzazate_Draa_Tafilalet.html" target={"_blank"}><a><span className="icon-tripadvisor"/></a></Link>
               </li>
             </ul>
 
