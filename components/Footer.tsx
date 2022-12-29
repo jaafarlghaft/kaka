@@ -9,7 +9,7 @@ function Footer() {
         <div className="row">
           <div className="col-md-4 pr-md-5">
             <h3>About Us</h3>
-            <p>The whole team of Hotel Zaghro is at your disposal, to welcome you, inform you or book you a room.</p>
+            <p>The whole team of Camping Akka is at your disposal, to welcome you, inform you or book you a room.</p>
           </div>
           <div className="col-md-8 ml-auto">
             <div className="row">
@@ -27,15 +27,14 @@ function Footer() {
                 <div className="row mb-3">
                   <div className="col-md-6">
                     <h3>Address</h3>
-                    <address> 1,5 kms route de Zagora, Tarmigte<br />
-                      Ouarzazate 45000 <br /> Morocco</address>
+                    <address> 9QQ5+W4, Akka<br />
+                      Tata 45000 <br /> Morocco</address>
                   </div>
                   <div className="col-md-6">
                     <h3>Telephone</h3>
                     <p>
-                      Phone:  +212(0)5 24 85 41 35 <br />
-                      Fax:  +212(0)5 24 85 47 09 <br />
-                      Cellular: +212(0)6 61 31 84 02
+                      Phone:  +212 5288-08288 <br />
+                      Fax:  +212 5288-08288 <br />
                     </p>
                   </div>
                 </div>

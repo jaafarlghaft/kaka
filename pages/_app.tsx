@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
            <meta name="keywords" content="" />
            <meta name="author" content="" />
            <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-           <title>Hotel Saghro Ouarzazate</title>
+           <title>Camping Akka| Hotel Restaurant</title>
            </Head>
            <Layout>
             <Component {...pageProps} />

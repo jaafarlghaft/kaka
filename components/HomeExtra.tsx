@@ -6,9 +6,9 @@ function HomeExtra() {
           <div  className="container">
             <div  className="row">
               <div  className="col-12 section-heading" data-aos="fade-up">
-                <h3>Enjoy your stay at Hotel Zaghro Ouarzazate</h3>
+                <h3>Enjoy your stay at Camping Akka</h3>
                 <div className="w-100 mb-5">
-                  <p>Hotel Zaghro offers many different Moroccan specialities, each as delicious as the others.<br/> The large restaurant in extended by tables laid around the swimming pool and in the lounge. It is large enough to be comfortable.</p>
+                  <p>Camping Akka offers many different Moroccan specialities, each as delicious as the others.<br/> The large restaurant in extended by tables laid around the swimming pool and in the lounge. It is large enough to be comfortable.</p>
                   </div>
               </div>
               </div>
@@ -17,7 +17,7 @@ function HomeExtra() {
                 <div  className="post-entry" data-aos="fade-up" data-aos-delay="100">
                   <a href="#"  className="thumb"><img src="images/s7.jpg" alt="Image"  className="img-fluid"/></a>
                   <div  className="post-entry-contents">
-                    <h3>Hotel Zaghro's restaurant serves a delicious Moroccan food</h3>
+                    <h3>Camping Akka's restaurant serves a delicious Moroccan food</h3>
                     {/* <div  className="date">December 20, 2019 &bullet; by <a href="#">Joefrey Mahusay</a></div> */}
                     <p>For your meal, you can select our large restaurant, or a table at the swimming pool. The perfect solution for a cool lunch in swimming suit !</p>
                     <a href="/restaurant"  className="readmore">Read more</a>
