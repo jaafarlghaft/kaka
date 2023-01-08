@@ -12,12 +12,12 @@ function rooms() {
                 <div  className="row justify-content-center text-center site-section pt-0">
                     <div  className="col-md-6">
                         <h2  className="display-4" data-aos="fade-up">Enjoy Your Stay</h2>
-                        <p data-aos="fade-up" data-aos-delay="100">Hotel Zaghro offers two types of rooms, with or without air-conditioning. A capacity of 30 rooms with air conditioning
+                        <p data-aos="fade-up" data-aos-delay="100">Camping Akka offers two types of rooms, with or without air-conditioning. A capacity of 30 rooms with air conditioning
 25 rooms without air conditioning</p>
                     </div>
                 </div>
             </div>
-            <div  className="container-fluid px-md-0">
+            <div  className="container px-md-0">
             <div  className="row no-gutters align-items-stretch room-animate site-section">
     <div  className="col-md-6 img-wrap" data-jarallax-element="-100">
       
@@ -71,7 +71,75 @@ function rooms() {
     </div>
   </div>
             </div>
-            <div  className="container-fluid px-md-0">
+            <div  className="container px-md-0">
+            <div  className="row no-gutters align-items-stretch room-animate site-section">
+            <div  className="col-md-4">
+            <div  className="order-md-2 img-wrap" data-jarallax-element="-100">
+                
+                <div  className="bg-image " style={{backgroundColor: "#efefef" , backgroundImage: `url('images/r2.jpg')`}}></div>
+                
+              </div>
+              <div  className="row justify-content-center">
+                  <div  className="col-md-8 py-5">
+                    <h3  className="display-4 heading">Room with air-conditioner</h3>
+                    <div  className="room-exerpt">
+                      <div  className="room-price mb-4">$200<span  className="per">/night</span></div>
+                      
+                      <a className='btn' href="/">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div  className="col-md-4">
+
+</div>
+<div  className="col-md-4">
+
+</div>
+              <div  className="col-md-7 order-md-2 img-wrap" data-jarallax-element="-100">
+                
+                <div  className="bg-image h-100" style={{backgroundColor: "#efefef" , backgroundImage: `url('images/r2.jpg')`}}></div>
+                
+              </div>
+              <div  className="col-md-5">
+                <div  className="row justify-content-center">
+                  <div  className="col-md-8 py-5">
+                    <h3  className="display-4 heading">Room with air-conditioner</h3>
+                    <div  className="room-exerpt">
+                      <div  className="room-price mb-4">$200<span  className="per">/night</span></div>
+                      
+                      <a className='btn' href="/">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div  className="container px-md-0">
+            <div  className="row no-gutters align-items-stretch room-animate site-section">
+            <div  className="col-md-5">
+                <div  className="row justify-content-center">
+                  <div  className="col-md-8 py-5">
+                    <h3  className="display-4 heading">Room with air-conditioner</h3>
+                    <div  className="room-exerpt">
+                      <div  className="room-price mb-4">$200<span  className="per">/night</span></div>
+                      
+                      <a className='btn' href="/">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div  className="col-md-7 order-md-2 img-wrap" data-jarallax-element="-100">
+                
+                <div  className="bg-image h-100" style={{backgroundColor: "#efefef" , backgroundImage: `url('images/r2.jpg')`}}></div>
+                
+              </div>
+              
+            </div>
+          </div>
+          <div  className="container px-md-0">
             <div  className="row no-gutters align-items-stretch room-animate site-section">
               <div  className="col-md-7 order-md-2 img-wrap" data-jarallax-element="-100">
                 
@@ -84,41 +152,8 @@ function rooms() {
                     <h3  className="display-4 heading">Room with air-conditioner</h3>
                     <div  className="room-exerpt">
                       <div  className="room-price mb-4">$200<span  className="per">/night</span></div>
-                      <div>
-                        <table style={{border: "1px solid #000"}}>
-                            <th>
-                                <td> </td>
-                                <td>1 person</td>
-                                <td>2 person</td>
-                                <td>3 person</td>
-                            </th>
-                            <tbody>
-                                <tr>
-                                    <td>Bb</td>
-                                    <td>37</td>
-                                    <td>59</td>
-                                    <td>69</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                      </div>
-                      <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality mattress </p>
-
-                      <p>Small, lower-priced hotels may offer only the most basic guest services and facilities. </p>
-
-                      <div  className="row mt-5">
-                        <div  className="col-12">
-                          <h3  className="mb-4">Amenities</h3>
-                          <ul  className="list-unstyled ul-check">
-                            <li>A large double bed or twin beds</li>
-                            <li>A vanity table</li>
-                            <li>An en-suite bathroom with shower and WC</li>
-                            <li>Cupboards and shelves for your luggage</li>
-                            <li>A television set (with satellite)</li>
-                            <li>A telephone</li>
-                          </ul>
-                        </div>
-                      </div>
+                      
+                      <a className='btn' href="/">Book Now</a>
                     </div>
                   </div>
                 </div>
@@ -126,43 +161,27 @@ function rooms() {
               </div>
             </div>
           </div>
-
-          <div  className="container-fluid px-md-0">
-
+          <div  className="container px-md-0">
             <div  className="row no-gutters align-items-stretch room-animate site-section">
-              <div  className="col-md-7 img-wrap" data-jarallax-element="-100">
-                
-                <div  className="bg-image h-100" style={{backgroundColor: "#efefef" , backgroundImage: `url('images/r3.jpg')`}}></div>
-                
-              </div>
-              <div  className="col-md-5">
+            <div  className="col-md-5">
                 <div  className="row justify-content-center">
                   <div  className="col-md-8 py-5">
-                    <h3  className="display-4 heading">Room with en-suite bathroom</h3>
+                    <h3  className="display-4 heading">Room with air-conditioner</h3>
                     <div  className="room-exerpt">
-                      <div  className="room-price ">$200<span  className="per">/night</span> 1 person</div>
-                      <div  className="room-price mb-4">$200<span  className="per">/night</span> 2 persons</div>
-                      <p>A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality mattress </p>
-                      <p>Small, lower-priced hotels may offer only the most basic guest services and facilities. </p>
-
-                      <div  className="row mt-5">
-                        <div  className="col-12">
-                          <h3  className="mb-4">Amenities</h3>
-                          <ul  className="list-unstyled ul-check">
-                            <li>32-inch LCD TV with cable channels and DVD player</li>
-                            <li>Handheld and mounted rain shower heads</li>
-                            <li>Wi-Fi access</li>
-                            <li>Safety deposit box</li>
-                            <li>Mini-bar</li>
-                          </ul>
-                        </div>
-                      </div>
+                      <div  className="room-price mb-4">$200<span  className="per">/night</span></div>
+                      
+                      <a className='btn' href="/">Book Now</a>
                     </div>
-
                   </div>
                 </div>
 
               </div>
+              <div  className="col-md-7 order-md-2 img-wrap" data-jarallax-element="-100">
+                
+                <div  className="bg-image h-100" style={{backgroundColor: "#efefef" , backgroundImage: `url('images/r2.jpg')`}}></div>
+                
+              </div>
+            
             </div>
           </div>
           </div>
