@@ -5,16 +5,12 @@ import Script from 'next/script';
 import Head from 'next/head';
 import Layout from '../components/Layout';
 
-import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
   return (<>
- <>
-      <Component {...pageProps} />
-      <Analytics />
-    </>
+
            <Head>
            <meta charSet="utf-8" />
            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
