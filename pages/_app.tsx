@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Script from 'next/script';
 import Head from 'next/head';
 import Layout from '../components/Layout';
-
+Commit directly to the main branch.
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
